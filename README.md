@@ -1,73 +1,79 @@
 # 📊 Revenue & Users Performance Dashboard
 
-## 🚀 Project Stack
-SQL • Tableau • Data Analysis
+🔍 Project Overview
 
----
+This project analyzes revenue growth and user behavior in a subscription-based product.
 
-## 📌 Project Overview
-This project focuses on analyzing revenue and user behavior using SQL and Tableau.
+The goal is to identify key drivers of MRR growth, detect churn patterns, and understand how user activity impacts revenue dynamics.
 
-The main goal is to track revenue dynamics, understand user behavior, and identify key factors affecting business performance.
+📌 Business Questions
+What drives MRR growth: new users or existing users?
+How does churn impact revenue over time?
+Are there periods of revenue contraction?
+What is the relationship between user growth and revenue?
 
----
+🛠️ Tech Stack
+SQL (data extraction & transformation)
+Tableau Public (data visualization)
+Data Analysis
 
-## 🎯 Objectives
-- Analyze revenue trends over time (MRR, Net MRR)
-- Understand user growth and churn behavior
-- Identify factors influencing revenue changes
+📈 Key Metrics
+MRR (Monthly Recurring Revenue) — total revenue per month
+New MRR — revenue from new users
+Net MRR — expansion minus contraction revenue
+ARPPU — average revenue per paying user
+Churn Rate (Users & Revenue) — user and revenue loss
 
----
+🧠 SQL Logic
 
-## ⚙️ Tools & Technologies
-- SQL (data extraction and transformation)
-- Tableau Public (data visualization)
+The analysis includes:
 
----
+Monthly revenue aggregation (MRR)
+Detection of new users using first payment logic
+Churn identification using LAG/LEAD window functions
+Revenue expansion and contraction calculation
 
-## 📈 Key Metrics
-- **MRR (Monthly Recurring Revenue)** — total revenue per month  
-- **New MRR** — revenue from new users  
-- **Net MRR** — expansion minus contraction revenue  
-- **ARPPU** — average revenue per paid user  
-- **Churn Rate (Users & Revenue)** — user and revenue loss  
-
----
-
-## 📊 Dashboard Preview
-
+📊 Dashboard Preview
 ![Dashboard](dashboard.png)
 
----
 
-## 🔗 SQL Query
-You can find the full SQL query used for data preparation here:  
-👉 [View SQL query](analysis.sql)
 
----
+🔗 SQL Query
 
-## 🔗 Tableau Dashboard
-👉 [Open Dashboard](https://public.tableau.com/views/RevenueUsersPerformanceDashboard_17768124782960/RevenueUsersPerformanceDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+You can find the full SQL query used for data preparation here:
+👉 👉 [View SQL query](analysis.sql)
 
----
+📊 Tableau Dashboard
 
-## 📊 Dashboard Features
-- KPI overview (MRR, New MRR, Net MRR, ARPPU)
-- Revenue trends over time
-- Churn analysis (users and revenue)
-- Expansion vs Contraction analysis
-- User growth analysis
-- Interactive filters (age, language, month)
+👉 👉 [Open Dashboard](https://public.tableau.com/views/RevenueUsersPerformanceDashboard_17768124782960/RevenueUsersPerformanceDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
----
+📌 Dashboard Features
+KPI overview (MRR, New MRR, Net MRR, ARPPU)
+Revenue trends over time
+Churn analysis (users and revenue)
+Expansion vs contraction analysis
+User growth analysis
+Interactive filters (age, language, month)
 
-## 🔍 Key Insights
-- Revenue shows overall growth but remains unstable  
-- Significant churn impact, especially at the end of the year  
-- Growth is mainly driven by new users rather than ARPPU increase  
-- Net MRR fluctuates due to revenue loss periods  
+🔍 Key Insights
+Revenue shows overall growth but remains unstable
+Churn has a significant impact, especially in later periods
+Growth is primarily driven by new users rather than ARPPU increase
+Net MRR fluctuates due to revenue contraction periods
 
----
+💡 Why It Matters
 
-## 🚀 Conclusion
-The dashboard helps identify key revenue drivers and highlights churn as a critical factor affecting business growth.
+This analysis helps businesses:
+
+Identify churn as a key risk for revenue decline
+Understand whether growth comes from acquisition or retention
+Detect unstable revenue patterns
+Support data-driven product and marketing decisions
+
+🚀 Conclusion
+
+The dashboard provides a structured view of revenue dynamics and highlights churn as a critical factor affecting business growth.
+
+👤 Author
+
+Dmytro — Junior Data Analyst (SQL, Tableau)
