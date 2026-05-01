@@ -61,7 +61,7 @@ You can find the full SQL query used for data preparation here:
 
 ## 📊 Tableau Dashboard
 
-👉 [Open Dashboard](https://public.tableau.com/app/profile/djon.fa/viz/1_17776363782090/UserConversionFunnelAnalysis)
+👉 [Open Dashboard]([https://public.tableau.com/app/profile/djon.fa/viz/1_17776363782090/UserConversionFunnelAnalysis](https://public.tableau.com/views/RevenueUsersPerformanceDashboard_17768124782960/RevenueUsersPerformanceDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
 
 ---
 
